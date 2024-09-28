@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fund-sync"
+version = "0.1.0"
+description = ""
+authors = ["haiyefeng <502607864@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+celery = "^5.4.0"
+pydantic = "^2.9.2"
+pydantic-settings = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
